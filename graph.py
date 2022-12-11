@@ -18,7 +18,6 @@ class Grapher:
         self.accuracy = accuracy
 
     def __del__(self):
-        print('a')
         self.show()
 
     def func(self, function: string):
